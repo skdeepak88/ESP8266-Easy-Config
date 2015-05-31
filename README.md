@@ -10,5 +10,7 @@ Look at httpfunctions.lua file to decide what your module should do. I am postin
 Note: I am running the code on NodeMCU 0.9.5 build 20150214  powered by Lua 5.1.4. The heap memory after installing all these files will be too little so have that in mind while editing the code. The code may not be very perfect as this is my firs attempt and only 2 days of learning lua. So use at your own risk ;) 
 
 I am running the code on Ray's ESPToy and used his startup demo as the starting point to learn lua. 
-More info on the product here http://rayshobby.net/esptoy/
+
+More info on the product can be found here http://rayshobby.net/esptoy/
+
 His demo script can be found here https://github.com/rayshobby/esptoy
