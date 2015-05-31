@@ -1,5 +1,5 @@
 # ESP-Flexi-Config
-Configure your ESP module from the browser
+Configure your ESP8266 module from the browser
 
 After uploading all the files reboot your ESP module to enter AP mode. Connect to ESPSensor network with the password opendoor and then visit 192.168.4.1 you wil be presented with a simple form. Enter SSID and Password of your WiFi network. The configuration is done! Note you wont be presented with any error if you typed your password wrong. Its not very hard to implement but the challenge is memory management.
 
