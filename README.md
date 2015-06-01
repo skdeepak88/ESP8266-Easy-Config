@@ -9,6 +9,8 @@ Look at httpfunctions.lua file to decide what your module should do. I am postin
 
 Note: I am running the code on NodeMCU 0.9.5 build 20150214  powered by Lua 5.1.4. The heap memory after installing all these files will be too little so have that in mind while editing the code. The code may not be very perfect as this is my first attempt and only 2 days of learning lua. So use at your own risk ;) 
 
+If you run into memory issues while uploading any modified code try formatting and load the files again. Or you can rename the init.lua file to something else so that it doesn't run and eat up memory on boot. This way you can use dofile on the renamed file to run the program and can reboot if you run into issues. On reboot the module looks for init.lua and if not found it does nothing until you run something manually.
+
 I am running the code on Ray's ESPToy and used his startup demo as the starting point to learn lua. 
 
 More info on the product can be found here http://rayshobby.net/esptoy/
